@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+
+# Ignore outputs
+outputs/
+
+# Ignore cache
+__pycache__/
+
+# Only track model files with LFS
+models/*.pth
