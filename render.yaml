@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: ai-low-light-enhancer
+    name: low-light-enhancer
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
