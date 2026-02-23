@@ -1,3 +1,4 @@
+
 import streamlit as st
 import numpy as np
 import cv2
@@ -119,6 +120,6 @@ with tab2:
 # -------------------------
 st.markdown("---")
 st.markdown(
-    "<center style='color:gray;'>Developed by Dennis | AI Powered Enhancement System</center>",
+    "<center style='color:gray;'>AI Powered Enhancement System</center>",
     unsafe_allow_html=True
 )
